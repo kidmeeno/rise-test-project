@@ -1,0 +1,139 @@
+.hero-section {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    z-index: 2;
+}
+
+.hero-header {
+    font-weight: 600;
+    letter-spacing: '-5%';
+    color: #07969E;
+    margin-bottom: 0;
+}
+
+.hero-paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A5050;
+    margin-bottom: 30px;
+}
+.mobile-hero-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A5050;
+}
+
+.hero-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.hero-content{
+    z-index: 1;
+}
+
+.download-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.app-store {
+    background-color: #2D2D2D;
+}
+
+.google-play {
+    background-color: #2D2D2D;
+    margin-left: 15px;
+}
+
+.btn img.logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.dowload-app {
+    display: flex;
+}
+
+.elipse-1 {
+    position: absolute;
+    top: 0;
+    right: 35rem;
+}
+
+.elipse-2 {
+    position: absolute;
+    top: 0;
+}
+
+.elipse-3 {
+    position: absolute;
+    bottom: 0;
+    left: 10rem;
+}
+
+.elipse-4 {
+    position: absolute;
+    bottom: 1rem;
+    right: 30rem;
+}
+
+.elipse-5 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* Move left to right Animation */
+@keyframes moveLeftRight {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+}
+
+.move-left-right {
+    animation: moveLeftRight 3s ease-in-out infinite;
+}
+
+/* Move up and down Animation */
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+}
+
+.move-up-down {
+    animation: moveUpDown 4s ease-in-out infinite;
+}

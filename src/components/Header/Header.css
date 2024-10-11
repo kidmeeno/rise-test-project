@@ -1,0 +1,35 @@
+.logo {
+    height: 1.1875rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem ;
+    padding-bottom: 1.5rem ;
+}
+
+.navigators{
+    display: flex;
+    column-gap: 2.25rem ;
+    text-decoration: none;
+}
+
+.nav{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #07969E;
+}
+
+.active-nav{
+    font-weight: bold;
+}
+
+@media (min-width: 1024px) {
+    .navigators {
+        column-gap: 2rem;
+    }
+}

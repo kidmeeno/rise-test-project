@@ -1,0 +1,40 @@
+.mobile-app-addvert{}
+.app-advert-wrapper{
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+.image-addvertisement{}
+.mobile-app-addvert{
+    width: 316.31px;
+}
+.addvert-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #2d2d2d;
+    margin-bottom: 0;
+}
+.addvert-header{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #2d2d2d;
+    margin: 0;
+}
+.advert-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2d2d2d;
+}
+.action-btn{
+    height: 48px;
+    width: 160px;
+    border-radius: 8px;
+    border: none;
+    background-color: #07969E;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}

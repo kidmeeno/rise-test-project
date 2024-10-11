@@ -1,0 +1,36 @@
+.community-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #4A5050;
+}
+.join-commuinty-action-btn{
+    height: 48px;
+    width: 218px;
+    background-color: #A0DDE2;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2D2D2D;
+    border: none;
+    border-radius: 8px;
+}
+.community-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.community-content{
+    width: 50%;
+}
+.community-image-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+}
+.community-content-mobile{
+    text-align: center;
+}

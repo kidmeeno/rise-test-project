@@ -1,0 +1,46 @@
+.appDownload-banner{
+    height: 394px;
+    /* width: 100%; */
+    border-radius: 50px;
+    background-color: #ECFEFE;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    z-index: 1;
+}
+.mobile-app-image{
+    height: 425.22px;
+    position: absolute;
+    z-index: 0;
+}
+.manipulate-view{
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -102px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+.appDownload-banner-content h3{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #2d2d2d;
+    margin: 0;
+}
+
+.banner-description{
+    color: #4A5050;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.banner-title{
+    color: #07969E;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}

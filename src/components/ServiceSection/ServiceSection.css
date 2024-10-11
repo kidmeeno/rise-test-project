@@ -1,0 +1,86 @@
+.invest-link {
+    font-size: 18px;
+    color: #07969E;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    line-height: 21.6px;
+    font-weight: 500;
+}
+
+.invest-link span {
+    margin-right: 8px;
+}
+
+.invest-link .arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.invest-link:hover .arrow {
+    transform: translateX(5px); /* Moves the arrow 5px to the right on hover */
+}
+
+.invest-link:hover {
+    color: #008b8b; /* Optional: Change color when hovering */
+}
+
+/* .invest-link strong {
+    font-weight: 600;
+} */
+
+.services-grid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article-content{
+    width: 50%;
+}
+.article-header{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 28.8px;
+    color: #2D2D2D;
+    margin-bottom: 0;
+}
+.article-paragraph{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A5050;
+}
+.articel-image-wrapper{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.article-image{}
+.articel-mobile-image-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.articel-mobile-image{
+    height: 280px;
+}
+.articel-mobile-header{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+    color: #2D2D2D;
+}
+.article-mobile-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #4A5050;
+}
+.service-stacked{
+    margin-top: 50px;
+}
